@@ -12,8 +12,8 @@ function Header() {
       mx-auto 
       px-4 md:px-6 
       py-4 
-      bg-[#1F1E1F] 
-      border-[#1F1E1F] 
+      bg-[#FDF6F0] 
+      border-[#FDF6F0] 
       flex flex-col md:flex-row 
       items-center justify-between 
       w-[95%] max-w-[788px] 
@@ -23,8 +23,8 @@ function Header() {
       <div className="flex items-center gap-1">
         <div className="flex items-center gap-3">
           <Image src={logo} alt="logo" width={32} height={32} />
-          <span className="text-[#FFFFFF] text-[20px] md:text-[24.77px] font-medium font-instrument">
-            BlessMed
+          <span className="text-[20px] md:text-[24.77px] font-medium font-instrument">
+            <span className="text-[#E9540E]">Bless</span><span className="text-[#6E56CF]">Med</span>
           </span>
         </div>  
         <NetworkBadge />
