@@ -5,8 +5,8 @@ import Header from '../components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'scaffold-stacks',
-  description: 'Built with scaffold-stacks',
+  title: 'BlessMed Onchain',
+  description: 'On-chain check-in ledger for BlessMed, built with Scaffold Stacks on the Stacks blockchain.',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

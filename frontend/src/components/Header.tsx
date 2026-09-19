@@ -24,7 +24,7 @@ function Header() {
         <div className="flex items-center gap-3">
           <Image src={logo} alt="logo" width={32} height={32} />
           <span className="text-[#FFFFFF] text-[20px] md:text-[24.77px] font-medium font-instrument">
-            SfdStacks
+            BlessMed
           </span>
         </div>  
         <NetworkBadge />
@@ -32,7 +32,7 @@ function Header() {
 
       <div className='flex items-center space-x-4 md:space-x-6'>
       <a 
-            href="https://github.com/scaffold-stack/scaffold-stack" 
+            href="https://github.com/Faraticode/blessmed-onchain" 
             target="_blank" 
             rel="noopener noreferrer"
             className="no-underline" 
