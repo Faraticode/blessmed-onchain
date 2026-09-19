@@ -54,8 +54,8 @@ const S = {
     lineHeight: '1',
     fontWeight: 400 // font-mono usually maps to normal weight unless specified
   },
-  tabIdle: { 
-    color: '#908E8E',
+    tabIdle: { 
+    color: 'rgba(255, 240, 230, 0.7)',
     width: '135px', // Keep width consistent so tabs don't jump when switching
     height: '40px'
   },
